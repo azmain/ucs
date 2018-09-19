@@ -1,0 +1,11 @@
+.header {
+	text-align: center;
+}
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+div.row::before, div.row::after {
+	content: none;
+	display: block;
+}
