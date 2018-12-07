@@ -52,7 +52,7 @@
 <?php 
     session_start();
     $_SESSION['status'] = "Idle";
-    echo $_SESSION['status'];
+    //echo $_SESSION['status'];
 
     if($_SERVER["REQUEST_METHOD"] == "POST")
     {

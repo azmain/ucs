@@ -82,6 +82,7 @@
 				 	//calculating total number of students for each course
 					$temp = $course_strength[$code]["spot"] + $course_strength[$code]["convener"] + $course_strength[$code]["management"]; 
 					//retriving amount from fees database
+					
 					$amount = mysqli_query($con,"SELECT amount FROM fees WHERE cou_code = '$code'");
 					$amount = mysqli_fetch_array($amount);
 					$amount = $amount['amount'];

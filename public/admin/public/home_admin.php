@@ -7,7 +7,7 @@
       {
           header("location:login.php");
       }
-      echo $_SESSION['status'];
+      //echo $_SESSION['status'];
 
       if(!isset($_SESSION['username'])){
         header('location: login.php');
