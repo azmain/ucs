@@ -53,5 +53,3 @@ Admin is the university administration. They will see all the affliated colleges
 > Add New College
 
 ![Add New College](https://github.com/azmain/ucs/blob/master/files/admin%20college%20add.JPG)
-
-***The Project is written in PHP without using any framework.***
